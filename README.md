@@ -1,4 +1,4 @@
-**fun-with-triangles**
+#fun-with-triangles
 
 do you know triangles
 Let your imagination run wild for this one. Some ideas which you can do. Create a triangle quiz.
