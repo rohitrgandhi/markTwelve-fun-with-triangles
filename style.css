@@ -67,18 +67,14 @@ h1{
     text-align: right;
 }
 
-.angle{
-    padding: 4rem 4rem 4rem 4rem;
-}
 
 button{
     border-radius: 0.5rem;
     width:fit-content;
 }
-table{
-    padding: 0rem 0rem;
-    text-align: center;
-    margin:auto;
+.image{
+    width:7rem;
+    height:7rem;
 }
 input{
     margin:1rem 1rem 2rem;
