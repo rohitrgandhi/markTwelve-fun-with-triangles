@@ -1,21 +1,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
 body{
     font-family: 'Lato', sans-serif;
     text-align: center;
     color:#00BFA6;
     background-color:#F3F4F6;
-    margin:2rem;
-    display:flex;
-    flex-direction: column;
-    width: 65rem;
 }
-header{
-    font-size: 2.5rem;
-    margin: 1rem;
+h1{
+    font-family: 'Megrim', cursive;
+    background-color: #62DCD0;
+    color:white;
+    text-align: left;
+    font-size:3rem;
+    margin:0rem 0rem 2rem;
 }
-div{
-    padding:0rem 2rem;
+.container{
+    padding-left:1rem;
+    padding-right:1rem;
+}
+.link
+{
+    text-decoration: none;
+    padding:.3rem 2rem;
+    color:white;
+    font-weight: bold;
+    border-radius: 1rem;
+} 
+.list-non-bullet
+{
+    list-style:none;    
+}
+
+.list-item-inline
+{
+    display: inline;
+}
+.link-active{
+    color:white;
+    background-color: black;
+}
+/** navigation **/
+.navigation{
+    background-color:#62DCD0;
+    padding: .4rem;
+    border-radius: 1rem;
+}
+
+.navigation .nav-pills{
+    text-align:right;
+}
+
+.navigation .link{
+    text-align:right;
+    color:white;
+}
+
+.navigation .link-active{
+    font-weight: bolder;
+    background-color: black;
+}
+
+.top-list{
+    font-family: 'Lato', sans-serif;
+    display: inline;
+    text-decoration: none;
+    text-align: right;
+}
+
+.angle{
+    padding: 4rem 4rem 4rem 4rem;
 }
 
 button{
@@ -28,11 +81,10 @@ table{
     margin:auto;
 }
 input{
-    margin:0rem 0rem 1.5rem;
+    margin:1rem 1rem 2rem;
 }
 
 .output{
-    font-size: 1rem;
     font-style: italic;
 }
 
