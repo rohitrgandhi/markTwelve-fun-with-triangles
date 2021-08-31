@@ -3,7 +3,6 @@
 body{
     font-family: 'Lato', sans-serif;
     text-align: center;
-    color:#00BFA6;
     background-color:#F3F4F6;
 }
 h1{
@@ -11,7 +10,7 @@ h1{
     background-color: #62DCD0;
     color:white;
     text-align: left;
-    font-size:3rem;
+    font-size:2.5rem;
     margin:0rem 0rem 2rem;
 }
 .container{
@@ -67,29 +66,26 @@ h1{
     text-align: right;
 }
 
-
+label{
+    padding-top: 2px;
+}
 button{
     border-radius: 0.5rem;
     width:fit-content;
 }
 .image{
-    width:7rem;
-    height:7rem;
+    width: 12rem;
+    height: 12rem;
+    padding-top:3px;
 }
 input{
-    margin:1rem 1rem 2rem;
+    margin:0rem .5rem 1rem;
 }
 
-.output{
-    font-style: italic;
-}
 
 footer {
     text-align: center;
-    position: absolute;
-    bottom: 0;
-    left: 0;
+    bottom: 0;left: 0;
     right: 0;
-    background-color: #62DCD0;
-    border-radius: .5rem;
+    position:relative;
   }

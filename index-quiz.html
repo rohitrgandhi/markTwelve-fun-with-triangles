@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/style.css" rel="stylesheet" />
+    <link href="/style-quiz.css" rel="stylesheet" />
+    <title>Do Angles form Triangle</title>
+</head>
+
+<body>
+    <nav class="navigation container">
+        <div><h1>Fun With Triangles</h1></div>
+        <ul class="list-non-bullet nav-pills">
+
+            <li class="list-item-inline">
+                <a class="link" href="index-isTriangle.html">
+                    is Triangle?</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link  link-active" href="index-quiz.html">
+                    Quiz about Triangle</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="index-hypo.html">
+                    Hypotenuse</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="index-area.html">
+                    Area of Triangle</a>
+                </li>
+            </ul>
+        </nav>
+        <h2>Quiz about Triangles </h2>
+        <small>(Each right answer fetches 1 mark.)</small>
+    <div>
+        <form class="quiz-form">
+        <p class="question">Question 1-What is the sum of all angles of a triangle?</p>
+        <label>  
+            <input type="radio"  value="180" name="question 1"/>
+            180 
+        </label>
+        <label>   
+            <input type="radio" value="360" name="question 1"/>
+            360
+        </label>    
+        <label >
+            <input type="radio" value="240" name="question 1"/>
+            240
+        </label>    
+        <!-- 2nd question -->
+        <p class="question">Question 2-What is the formula for calculating hypotenuse?</p>
+        <label>  
+            <input type="radio"  value="sqrtapb2" name="question 2"/>
+            Squareroot(a+b)^2
+        </label>
+        <label>   
+            <input type="radio" value="sqrta2pb2" name="question 2"/>
+            Squareroot(a^2+b^2)
+        </label>    
+        <label >
+            <input type="radio" value="sqrtapb" name="question 2"/>
+            Squareroot(a+b)
+        </label>  
+        <p class="question">Question 3-What is the formula for calculating area of a triangle?</p>
+        <label>  
+            <input type="radio"  value="apb" name="question 3"/>
+            0.5*(a+b)
+        </label>
+        <label>   
+            <input type="radio" value="apb2" name="question 3"/>
+            0.5*(a+b)^2
+        </label>    
+        <label >
+            <input type="radio" value="ab" name="question 3"/>
+            0.5(a*b)
+        </label> 
+        <br />
+        <button id="button">Calculate Marks</button>
+
+    </div> 
+    </form>
+    <div id="output"></div>
+     
+        <!-- <footer class="footer">
+            <a target="_blank" href="https://github.com/rohitrgandhi/markTwelve-fun-with-triangles"><img class="footer-image" src="images/GitHub-Mark-32px.png"></a>
+        </footer> -->
+    </body>
+    <script src="/app-quiz.js"></script>
+</html>
