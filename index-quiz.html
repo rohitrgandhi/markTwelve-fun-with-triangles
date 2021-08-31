@@ -33,10 +33,13 @@
                 </li>
             </ul>
         </nav>
+        <main class="quiz-main">
         <h2>Quiz about Triangles </h2>
         <small>(Each right answer fetches 1 mark.)</small>
     <div>
         <form class="quiz-form">
+            <!-- 1st question -->
+            <div class="question-container">
     <p>Question 1-What is the sum of all angles of a triangle?</p>
         <label class="question">  
             <input type="radio"  value="180" name="question 1"/>
@@ -51,7 +54,9 @@
             240
         </label>    
     </p>
+</div>
         <!-- 2nd question -->
+        <div class="question-container">
         <p>Question 2-What is the formula for calculating hypotenuse?</p>
         <label class="question">  
             <input type="radio"  value="sqrtapb2" name="question 2"/>
@@ -64,7 +69,11 @@
         <label class="question" >
             <input type="radio" value="sqrtapb" name="question 2"/>
             Squareroot(a+b)
-        </label>  
+        </label>
+    </p>  
+        </div>
+        <!-- 3rd question -->
+        <div class="question-container"></div>
         <p>Question 3-What is the formula for calculating area of a triangle?</p>
         <label class="question">  
             <input type="radio"  value="apb" name="question 3"/>
@@ -79,6 +88,9 @@
             0.5(a*b)
         </label> 
     </p>
+</div>
+    <!-- 4th question -->
+    <div class="question-container">
     <p>Question 4-Which of the following can form a right angled triangle?</p>
     <label class="question">  
         <input type="radio"  value="141526" name="question 4"/>
@@ -93,6 +105,9 @@
         6,8,11
     </label>    
 </p>
+</div>
+<!-- 5th question -->
+<div class="question-container">
 <p>Question 5-Which triangle has all the sides equal</p>
 <label class="question"  class="question">  
     <input type="radio"  value="Equilateral" name="question 5"/>
@@ -106,6 +121,10 @@
     <input type="radio" value="Scalene" name="question 5"/>
     Scalene
 </label>    
+</p>
+</div>
+<!-- 6th question -->
+<div class="question-container">
 <p>Question 6-Which triangle has the largest area?</p>
 <label class="question"  class="question">  
     <input type="radio"  value="Equilateral" name="question 6"/>
@@ -121,13 +140,13 @@
 </label>
 
 </p>
-        <br />
+</div>
         <button id="button">Calculate Marks</button>
 
     </div> 
     </form>
     <div id="output"></div>
-     
+</main>
         <footer class="footer">
             <a target="_blank" href="https://github.com/rohitrgandhi/markTwelve-fun-with-triangles"><img class="footer-image" src="images/GitHub-Mark-32px.png"></a>
         </footer>

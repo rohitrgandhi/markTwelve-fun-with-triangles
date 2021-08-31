@@ -23,3 +23,4 @@ function calculateMarks(){
     }
     output.innerText="Your marks=" + score;
 }
+
