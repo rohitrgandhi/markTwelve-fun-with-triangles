@@ -37,46 +37,90 @@
         <small>(Each right answer fetches 1 mark.)</small>
     <div>
         <form class="quiz-form">
-        <p class="question">Question 1-What is the sum of all angles of a triangle?</p>
-        <label>  
+    <p>Question 1-What is the sum of all angles of a triangle?</p>
+        <label class="question">  
             <input type="radio"  value="180" name="question 1"/>
             180 
         </label>
-        <label>   
+        <label class="question">   
             <input type="radio" value="360" name="question 1"/>
             360
         </label>    
-        <label >
+        <label class="question" >
             <input type="radio" value="240" name="question 1"/>
             240
         </label>    
+    </p>
         <!-- 2nd question -->
-        <p class="question">Question 2-What is the formula for calculating hypotenuse?</p>
-        <label>  
+        <p>Question 2-What is the formula for calculating hypotenuse?</p>
+        <label class="question">  
             <input type="radio"  value="sqrtapb2" name="question 2"/>
             Squareroot(a+b)^2
         </label>
-        <label>   
+        <label class="question">   
             <input type="radio" value="sqrta2pb2" name="question 2"/>
             Squareroot(a^2+b^2)
         </label>    
-        <label >
+        <label class="question" >
             <input type="radio" value="sqrtapb" name="question 2"/>
             Squareroot(a+b)
         </label>  
-        <p class="question">Question 3-What is the formula for calculating area of a triangle?</p>
-        <label>  
+        <p>Question 3-What is the formula for calculating area of a triangle?</p>
+        <label class="question">  
             <input type="radio"  value="apb" name="question 3"/>
             0.5*(a+b)
         </label>
-        <label>   
+        <label class="question">   
             <input type="radio" value="apb2" name="question 3"/>
             0.5*(a+b)^2
         </label>    
-        <label >
+        <label class="question" >
             <input type="radio" value="ab" name="question 3"/>
             0.5(a*b)
         </label> 
+    </p>
+    <p>Question 4-Which of the following can form a right angled triangle?</p>
+    <label class="question">  
+        <input type="radio"  value="141526" name="question 4"/>
+        14,15,26
+    </label>
+    <label class="question">   
+        <input type="radio" value="202129" name="question 4"/>
+        20,21,29
+    </label>    
+    <label class="question" >
+        <input type="radio" value="6811" name="question 4"/>
+        6,8,11
+    </label>    
+</p>
+<p>Question 5-Which triangle has all the sides equal</p>
+<label class="question"  class="question">  
+    <input type="radio"  value="Equilateral" name="question 5"/>
+    Equilateral triangle
+</label>
+<label class="question">   
+    <input type="radio" value="Isosceles" name="question 5"/>
+    Isosceles triangle
+</label>    
+<label class="question" class="question">
+    <input type="radio" value="Scalene" name="question 5"/>
+    Scalene
+</label>    
+<p>Question 6-Which triangle has the largest area?</p>
+<label class="question"  class="question">  
+    <input type="radio"  value="Equilateral" name="question 6"/>
+    Equilateral triangle
+</label>
+<label class="question">   
+    <input type="radio" value="Isosceles" name="question 6"/>
+    Isosceles triangle
+</label>    
+<label class="question" class="question">
+    <input type="radio" value="Scalene" name="question 6"/>
+    Scalene
+</label>
+
+</p>
         <br />
         <button id="button">Calculate Marks</button>
 
@@ -84,9 +128,9 @@
     </form>
     <div id="output"></div>
      
-        <!-- <footer class="footer">
+        <footer class="footer">
             <a target="_blank" href="https://github.com/rohitrgandhi/markTwelve-fun-with-triangles"><img class="footer-image" src="images/GitHub-Mark-32px.png"></a>
-        </footer> -->
+        </footer>
     </body>
     <script src="/app-quiz.js"></script>
 </html>
