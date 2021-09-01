@@ -72,6 +72,7 @@ label{
 button{
     border-radius: 0.5rem;
     width:fit-content;
+    margin-bottom: 1rem;
 }
 .image{
     width: 12rem;
@@ -88,4 +89,6 @@ footer {
     bottom: 0;left: 0;
     right: 0;
     position:relative;
+    background-color: #62DCD0;
+    background-size: cover;
   }
