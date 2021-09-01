@@ -16,6 +16,7 @@ challenge
 Create three inputs to get the angles of a triangle from the user
 Create a button Is Triangle? to check if the angles form triangle or not
 Create a h2 tag to show the output
+
 ex-02: Select the elements using queryselector
 challenge
 Use querySelectors to select the three input tags , button tag and the h1 tag
