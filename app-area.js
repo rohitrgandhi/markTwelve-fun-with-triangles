@@ -1,22 +1,21 @@
 //taking variables from HTML world to Javascript world
-var base=document.querySelector("#base");
-var height=document.querySelector("#height");
+const base=document.querySelector("#base");
+const height=document.querySelector("#height");
 
-var area=document.querySelector("#area");
+const area=document.querySelector("#area");
 
-var calculateButton=document.querySelector("#button");
+const calculateButton=document.querySelector("#button");
 
 //when button is clicked calculate function is called.
 
-calculateButton.addEventListener("click", calculateArea);
-function calculateArea()
+function areaCalculate(b, h){
+const areaTriangle= 0.5 * b * h;
+return areaTriangle;
+}
+function calculation()
 {  
-    base=Number(base.value);
-    height=Number(height.value);
-    var area=.5*base*height;
-    outputMsg(`Area is ${area}`) ;
+    const areaofTriangle=areaCalculate(Number(base.value),Number(height.value));
+    area.innerText="The area is " + areaofTriangle + " sq. units";
 }
+calculateButton.addEventListener("click", calculation);
 
-function outputMsg(message)
-{   hypo.innerHTML=message;
-}

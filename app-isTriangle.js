@@ -1,48 +1,41 @@
 //taking variables from HTML world to Javascript world
-var angle1=document.querySelector("#angle1");
-var angle2=document.querySelector("#angle2");
+const angle1=document.querySelector("#angle1");
+const angle2=document.querySelector("#angle2");
+const angle3=document.querySelector("#angle3");
 
-var angle3=document.querySelector("#angle3");
+const output=document.querySelector("#output");
 
-var output=document.querySelector("#output");
-
-var calculateButton=document.querySelector("#button");
+const calculateButton=document.querySelector("#button");
 
 //when button is clicked calculate function is called.
 
-calculateButton.addEventListener("click", isTriangle);
 function isTriangle()
-{   angle1=Number(angle1.value);
-    angle2=Number(angle2.value);
-    angle3=Number(angle3.value);
-    var flag=errorHandler(angle1,angle2,angle3);
+{ 
+    const flag=errorHandler(Number(angle1.value),Number(angle2.value),Number(angle3.value));
     if(flag===true)
         {   
-            var add=calculateSumofAngles(angle1,angle2,angle3)
+            const add=calculateSumofAngles(Number(angle1.value),Number(angle2.value),Number(angle3.value))
             
             if(add===180)
             {
-                outputMsg(`${angle1}, ${angle2} and ${angle3} FORM a triangle.`) ;
+                output.innerText="Angles FORM a triangle";
                 output.style.color="green";
             }
         
             else
             {
-                outputMsg(`${angle1}, ${angle2} and ${angle3} DO NOT FORM a triangle.`)
+                output.innerText="Angles DO NOT FORM a triangle";
                 output.style.color="red";
             }
         }
     else{
-        outputMsg(`Angle of a triangle should be greater than 0 and less than 180.`)
+        output.innerText="Angle of a triangle should be greater than 0 and less than 180.";
         } 
 }
-function calculateSumofAngles()
+function calculateSumofAngles(angle1,angle2,angle3)
 {
-    var add=angle1+angle2+angle3;
+    const add=angle1+angle2+angle3;
     return add;
-}
-function outputMsg(message)
-{   output.innerHTML=message;
 }
 
 function errorHandler(angle1,angle2,angle3)
@@ -55,3 +48,5 @@ function errorHandler(angle1,angle2,angle3)
         return false;
     }
 }
+
+calculateButton.addEventListener("click", isTriangle);
