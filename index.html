@@ -60,15 +60,15 @@
         <p>Question 2-What is the formula for calculating hypotenuse?</p>
         <label class="question">  
             <input type="radio"  value="sqrtapb2" name="question 2"/>
-            Squareroot(a+b)^2
+            √(a+b)²
         </label>
         <label class="question">   
             <input type="radio" value="sqrta2pb2" name="question 2"/>
-            Squareroot(a^2+b^2)
+            √(a²+b²)
         </label>    
         <label class="question" >
             <input type="radio" value="sqrtapb" name="question 2"/>
-            Squareroot(a+b)
+            √(a+b)
         </label>
     </p>  
         </div>
@@ -77,15 +77,15 @@
         <p>Question 3-What is the formula for calculating area of a triangle?</p>
         <label class="question">  
             <input type="radio"  value="apb" name="question 3"/>
-            0.5*(a+b)
+            1/2*(a+b)
         </label>
         <label class="question">   
             <input type="radio" value="apb2" name="question 3"/>
-            0.5*(a+b)^2
+            1/2*(a+b)²
         </label>    
         <label class="question" >
             <input type="radio" value="ab" name="question 3"/>
-            0.5(a*b)
+            1/2(a*b)
         </label> 
     </p>
 </div>
@@ -109,7 +109,7 @@
 <!-- 5th question -->
 <div class="question-container">
 <p>Question 5-Which triangle has all the sides equal</p>
-<label class="question"  class="question">  
+<label class="question">  
     <input type="radio"  value="Equilateral" name="question 5"/>
     Equilateral triangle
 </label>
@@ -117,7 +117,7 @@
     <input type="radio" value="Isosceles" name="question 5"/>
     Isosceles triangle
 </label>    
-<label class="question" class="question">
+<label class="question">
     <input type="radio" value="Scalene" name="question 5"/>
     Scalene
 </label>    
@@ -125,15 +125,16 @@
 </div>
 <!-- 6th question -->
 <div class="question-container">
-<p>Question 6-Which triangle has the largest area?</p>
-<label class="question"  class="question">  
-    <input type="radio"  value="Equilateral" name="question 6"/>
-    Equilateral triangle
-</label>
+<p>Question 6-Which triangle has two angles equal?</p>
 <label class="question">   
-    <input type="radio" value="Isosceles" name="question 6"/>
+    <input type="radio" value="Equilateral" name="question 6"/>
+    Equilateral triangle
+</label> 
+<label class="question"  class="question">  
+    <input type="radio"  value="Isosceles" name="question 6"/>
     Isosceles triangle
-</label>    
+</label>
+   
 <label class="question" class="question">
     <input type="radio" value="Scalene" name="question 6"/>
     Scalene
@@ -148,9 +149,26 @@
     <button id="button">Calculate Marks</button>
     <h2 id="output"></h2>
 </main>
-        <footer class="footer">
-            <a target="_blank" href="https://github.com/rohitrgandhi/markTwelve-fun-with-triangles"><img class="footer-image" src="images/GitHub-Mark-32px.png"></a>
-        </footer>
+<footer class="footer">
+    <ul class="list-non-bullet">
+        <li class="list-item-inline" >
+            
+            <a class="link" href="https://github.com/rohitrgandhi" target="_blank"><img src="images/git.svg" alt="github" height="25" width="75">
+            </a>
+        </img>
+        </li>
+        <li class="list-item-inline" >
+            
+            <a class="link" href="https://www.linkedin.com/in/rohitgandhi0805/" target="_blank">
+                <img src="images/linkedin.svg" alt="linkedin" height="25" width="75" /></a>
+        </li>
+        <li class="list-item-inline" >
+        
+            <a target="_blank" class="link" href="https://twitter.com/rohit_0805" target="_blank">
+                <img src="images/twitter.svg" alt="twitter" height="25" width="75"/></a>
+        </li>
+    </ul>
+</footer>
     </body>
     <script src="/app-quiz.js"></script>
 </html>

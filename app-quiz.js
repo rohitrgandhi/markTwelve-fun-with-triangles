@@ -5,7 +5,7 @@ const output=document.querySelector("#output");
 
 const calculateButton=document.querySelector("#button");
 
-const correctAnswers=["180","sqrta2pb2","ab","202129","Equilateral","Equilateral"];
+const correctAnswers=["180","sqrta2pb2","ab","202129","Equilateral","Isosceles"];
 
 calculateButton.addEventListener("click",calculateMarks);
 

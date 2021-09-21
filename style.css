@@ -25,15 +25,7 @@ h1{
     font-weight: bold;
     border-radius: 1rem;
 } 
-.list-non-bullet
-{
-    list-style:none;    
-}
 
-.list-item-inline
-{
-    display: inline;
-}
 .link-active{
     color:white;
     background-color: black;
@@ -86,7 +78,19 @@ input{
 
 footer {
     text-align: center;
-    bottom: 0;left: 0;
-    right: 0;
-    position:relative;
+  }
+
+  .list-non-bullet
+{
+    list-style:none;    
+}
+
+.list-item-inline
+{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+   
+  img {
+    padding: 1rem .2rem;
   }
