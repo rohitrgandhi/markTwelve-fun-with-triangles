@@ -10,7 +10,7 @@ const calculateButton=document.querySelector("#button");
 //when button is clicked calculate function is called.
 
 function isTriangle()
-{ 
+{   
     const flag=errorHandler(Number(angle1.value),Number(angle2.value),Number(angle3.value));
     if(flag===true)
         {   

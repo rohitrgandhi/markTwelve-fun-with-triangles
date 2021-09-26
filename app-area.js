@@ -6,16 +6,22 @@ const area=document.querySelector("#area");
 
 const calculateButton=document.querySelector("#button");
 
-//when button is clicked calculate function is called.
-
 function areaCalculate(b, h){
 const areaTriangle= 0.5 * b * h;
 return areaTriangle;
 }
+
 function calculation()
-{  
-    const areaofTriangle=areaCalculate(Number(base.value),Number(height.value));
-    area.innerText="The area is " + areaofTriangle + " sq. units";
+{    
+        if((base.value>0) && (height.value>0) )
+        {
+        const areaofTriangle=areaCalculate(Number(base.value),Number(height.value));
+        area.innerText="The area is " + areaofTriangle + " sq. units";
+        } 
+        else area.innerText="Enter base and height greater than 0";
 }
+
+
+//when button is clicked "calculation" function is called.
 calculateButton.addEventListener("click", calculation);
 
