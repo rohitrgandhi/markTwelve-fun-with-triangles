@@ -33,7 +33,7 @@ Understanding
 **ex-04: Display the output**
 Challenge:
 - Display the output in the DOM
-- 
+
 # Problem 2: Triangle Quiz
 **ex-05: Structure the html for Triangle Quiz
 challenge**
