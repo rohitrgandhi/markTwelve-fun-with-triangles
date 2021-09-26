@@ -7,20 +7,20 @@
 4 Calculate area of a triangle given the base and height of a triangle
 
 ## Problem 1: Is Triangle?
-# ex-01: Structure the html for Is Triangle Problem
+**ex-01: Structure the html for Is Triangle Problem**
 Challenge:
 - Create three inputs to get the angles of a triangle from the user
 - Create a button Is Triangle? to check if the angles form triangle or not
 - Create a h2 tag to show the output
 
-# ex-02: Select the elements using queryselector
+**ex-02: Select the elements using queryselector**
 Challenge:
 - Use querySelectors to select the three input tags , button tag and the h1 tag
 
 Understanding
 - querySelectorAll
 
-# ex-03: Create a function isTriangle
+**ex-03: Create a function isTriangle**
 Challenge:
 - Create a function isTriangle which checks if the angles form a triangle or not
 - Calculate the sum of the angles using a function calculateSumOfAngles
@@ -30,11 +30,11 @@ Challenge:
 Understanding
 - Typecasting
 
-# ex-04: Display the output
+**ex-04: Display the output**
 Challenge:
 - Display the output in the DOM
 - 
-**Problem 2: Triangle Quiz**
+# Problem 2: Triangle Quiz
 **ex-05: Structure the html for Triangle Quiz
 challenge**
 - Create a form that contains the quiz container and a button to submit the form
@@ -67,7 +67,7 @@ Understanding:
 Challenge:
 - Display the output in the DOM
 
-**Problem 3: Calculate hypotenuse of a triangle**
+# Problem 3: Calculate hypotenuse of a triangle
 What is hypotenuse ?
 In a right angled triangle, hypotenuse is the longest side, the side opposite the right angle.
 Length of the hypotenuse c = sqrt ( a² + b² )
@@ -97,5 +97,5 @@ challenge
 challenge
 - Create a navbar and navigate through different
 
-## Problem 4: Calculate Area of Triangle
+# Problem 4: Calculate Area of Triangle
 - Area of Triangle A = 1/2 (base * height)
